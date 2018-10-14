@@ -1,0 +1,342 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	color: #000;
+}
+
+a:hover {
+	color: #fff;
+	background-color: #3cd13f !important;
+}
+
+.aboutBox {
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+	height: 200px;
+	padding-top: 20px;
+}
+
+.aboutFA {
+	font-size: 50px;
+	color: #3cd13f;
+	position: relative;
+	top: 20px;
+}
+
+.alternateColor {
+	background-color: #ddd;
+}
+
+.bannerImg {
+	position: relative;
+	bottom: 0;
+	overflow: hidden;
+}
+
+.bannerOverlay {
+	max-width: 20%;
+	background-color: rgba(0,0,0,0.65);
+	color: #fff;
+	position: absolute;
+	top: 300px;
+	right: 10%;
+}
+
+.bannerOverlay2 {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.6em !important;
+
+}
+
+.maxOverlay {
+	background-color: rgba(0,0,0,0.5);
+	max-width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.bannerOverlay > * {
+	padding: 5%;
+}
+
+body {
+	font-size: 1.8em;
+	padding-top: 100px;
+}
+
+#contactDiv {
+	margin-top: 50px;
+	background-color: #222;
+	height: 600px;
+	color: #eee;
+}
+
+#contactFormDiv {
+	border-left: #3cd13f solid 1px;
+}
+
+#contactMsg {
+	height: 120px !important;
+	color: #000;
+	font-style: italic;
+	width: 100%;
+}
+
+.darkened {
+	background-color: rgba(0,0,0,0.5);
+}
+
+footer {
+	text-align: center;
+	background-color: #111;
+	color: #fff;
+	margin-bottom: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.formSubmit {
+	color: #fff;
+	background-color: #3cd13f;
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+	border: none;
+}
+
+.formSubmit:hover {
+	color: #3cd13f;
+	background-color: #fff;
+}
+
+h4 {
+	font-weight: bold;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100% !important;
+	background-color: #fff;
+	z-index: 5;
+}
+
+.highlight {
+	color: #3cd13f !important;
+}
+
+.highlight:hover {
+	color: #fff !important;
+	background-color: #3cd13f !important;
+}
+
+.shadow {
+  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+
+.inputField {
+	width: 100%;
+	height: 25px;
+	color: #000;
+	border: none;
+}
+
+.icon-bar {
+	color: #888 !important;
+	background-color: #888 !important;
+}
+
+.inputField:focus {
+	border:#3cd13f 1px solid;
+}
+
+.italic {
+	font-style: italic;
+	font-size: 1.2em;
+}
+
+li {
+	margin-bottom: 20px;
+}
+
+.sublist li {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+#menuLogo {
+	max-height: 70px;
+	padding-top: 25px;
+	width: 100%;
+}
+
+#midscreenBuyNow {
+	width: 20%;
+	display: block;
+	margin: auto;
+}
+
+#mobileNav {
+	font-size: 35px;
+	margin-top: 35px;
+}
+
+#mobileNavMenu {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.mobileNavOption {
+	height: 50px;
+	border-bottom: 1px dashed #3cd13f;
+	display: flex;
+ 	align-items: center;
+}
+
+.mobileNavOption:hover {
+	color: #fff;
+	background-color: #3cd13f;
+}
+
+#mobileNavMenu {
+	display: none;
+}
+
+.navMenu {
+	padding-top: 25px;
+}
+
+.overlayHeader {
+	background-color: #3cd13f;
+	color: #fff;
+	display: block;
+}
+
+.parallax {
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax1 {
+	background-image: url(../images/clock-min.jpg);
+	height: 500px;
+}
+
+#parallax2 {
+	background-image: url(../images/black-and-white-code-programming-tech-79290.png);
+	height: 300px;
+	position: relative;
+	display: table-cell;
+ 	vertical-align: middle;
+}
+
+#parallax2wrapper {
+	display: table;
+	width: 100%;
+	margin-top: 50px;
+}
+
+#parallaxBanner {
+	background-image: url(../images/mathematics-min.jpg);
+	height: 650px;
+}
+
+.priceHeader {
+	background-color: #3cd13f;
+	color: #fff;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 25px;
+	position: relative;
+	right: 25px;
+}
+
+.pricePrice {
+	text-align: center;
+	color: #3cd13f;
+}
+
+.priceSection {
+	border: rgba(0,0,0,0.1) 1px solid;
+}
+
+.pullInFront {
+	z-index: 99;
+}
+
+.pushDown {
+	padding-bottom: 100px;
+}
+
+.sectionHeader {
+	padding-top: 50px;
+	padding-bottom: 35px;
+}
+
+.stdBtn {
+	background-color: #3cd13f;
+	color: #fff;
+	border: none;
+	font-size: 20px;
+	min-height: 50px;
+	min-width:200px;
+}
+
+.stdBtn:hover {
+	background-color: #fff;
+	color:#3cd13f;
+}
+
+
+@media screen and (max-width: 699px) and (min-width: 320px) {
+	#contactDiv {
+		height: auto;
+	}
+
+	#menuLogo {
+		padding-top: 30px;
+	}
+
+	#contactFormDiv {
+		border-left: none;
+	}
+
+	.parallax {
+		background-attachment: initial;
+	}
+
+	header {
+		padding-top: 0px;
+		padding-bottom: 15px;
+	}
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+	#contactDiv {
+		height: auto;
+	}
+
+	#contactFormDiv {
+		border-left: none;
+	}
+
+	.parallax {
+		background-attachment: initial;
+	}
+
+	header {
+		padding-bottom: 15px;
+	}
+}
